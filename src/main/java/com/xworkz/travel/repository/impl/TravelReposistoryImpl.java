@@ -20,7 +20,7 @@ public class TravelReposistoryImpl implements TravelReposistory {
             em.persist(travel);
             System.out.println("persist success");
             et.commit();
-//            return travel;
+            return travel.getId();
 
         }catch (PersistenceException pe){
             System.err.println("Persistence in save method of Travel :"+pe.getMessage());
