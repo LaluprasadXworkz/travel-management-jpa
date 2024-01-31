@@ -50,7 +50,7 @@ public class TempleEntity {
 
     @Column(name = "Inauguration_Date")
     @NotNull
-    private LocalDate inaugurationDate;
+    private String inaugurationDate;
 
     @Column(name = "Main_God")
     @NotNull

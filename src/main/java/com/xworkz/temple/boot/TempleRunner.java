@@ -11,22 +11,22 @@ import java.util.List;
 
 public class TempleRunner {
     public static void main(String[] args) {
-        TempleEntity temple1=new TempleEntity("Tirupati","AP",500,true,
-                LocalDate.of(1947,01,24), "Venkateswara","10.59 sq mi");
+//        TempleEntity temple1=new TempleEntity("Tirupati","AP",500,true,
+//                LocalDate.of(1947,01,24), "Venkateswara","10.59 sq mi");
+//
+//        TempleEntity temple2=new TempleEntity("Dharmasthala","Karnataka",500,false,
+//                LocalDate.of(2023,01,24), "Sri Manjunatha","20.59 sq mi");
+//
+//        TempleEntity temple3=new TempleEntity("kukke subramanya","Uttara Kannada",500,true,
+//                LocalDate.of(2023,01,24), "Subramanya","30.59 sq mi");
+//
+//        TempleEntity temple4=new TempleEntity("Murdeshwar","Karnataka",500,false,
+//                LocalDate.of(2023,01,24), "Shiva","40.59 sq mi");
+//
+//        TempleEntity temple5=new TempleEntity("kanipakam","Andhra Pradesh",500,true,
+//                LocalDate.of(2023,01,24), "Varasidhi Vinayaka Swamy","50.59 sq mi");
 
-        TempleEntity temple2=new TempleEntity("Dharmasthala","Karnataka",500,false,
-                LocalDate.of(2023,01,24), "Sri Manjunatha","20.59 sq mi");
-
-        TempleEntity temple3=new TempleEntity("kukke subramanya","Uttara Kannada",500,true,
-                LocalDate.of(2023,01,24), "Subramanya","30.59 sq mi");
-
-        TempleEntity temple4=new TempleEntity("Murdeshwar","Karnataka",500,false,
-                LocalDate.of(2023,01,24), "Shiva","40.59 sq mi");
-
-        TempleEntity temple5=new TempleEntity("kanipakam","Andhra Pradesh",500,true,
-                LocalDate.of(2023,01,24), "Varasidhi Vinayaka Swamy","50.59 sq mi");
-
-        List<TempleEntity> list= Arrays.asList(temple1,temple2,temple3,temple4,temple5);
+//        List<TempleEntity> list= Arrays.asList(temple1,temple2,temple3,temple4,temple5);
 
         TempleRepository templeRepository=new TempleRepositoryImpl();
 /*
