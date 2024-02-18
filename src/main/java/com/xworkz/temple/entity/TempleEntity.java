@@ -1,10 +1,13 @@
 package com.xworkz.temple.entity;
 
 import com.sun.istack.NotNull;
+import com.xworkz.person.entity.AddressEntity;
+import com.xworkz.person.entity.PersonEntity;
 import lombok.*;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.List;
 
 @Setter
 @Getter
@@ -74,3 +77,11 @@ public class TempleEntity {
                 "\ndimension :" + dimension ;
     }
 }
+
+
+//List<Object[]> resultList = query.getResultList();
+//Object[] objects = resultList.get(0);
+//PersonEntity personEntity = (PersonEntity) objects[0];
+//AddressEntity addressEntity = (AddressEntity) objects[1];
+//            personEntity.setAddressEntity(addressEntity);
+//            return personEntity;
