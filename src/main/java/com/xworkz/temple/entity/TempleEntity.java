@@ -1,8 +1,7 @@
 package com.xworkz.temple.entity;
 
 import com.sun.istack.NotNull;
-import com.xworkz.person.entity.AddressEntity;
-import com.xworkz.person.entity.PersonEntity;
+
 import lombok.*;
 
 import javax.persistence.*;

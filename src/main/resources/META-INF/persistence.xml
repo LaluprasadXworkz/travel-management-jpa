@@ -5,6 +5,7 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/fertilizermanagement"></property>
             <property name="javax.persistence.jdbc.user" value="root"></property>
             <property name="javax.persistence.jdbc.password" value="root"></property>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
         </properties>
     </persistence-unit>
 </persistence>
